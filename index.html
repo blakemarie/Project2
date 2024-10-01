@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>My Book List</title> 
+    
+    <!-- Bootstrap CSS for styling -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #FFD580;"> <!-- Background color for the body -->
+    <div class="container mt-5 border"> <!-- Main container with margin and border -->
+        <h2 class="title">My Book List</h2> <!-- title -->
+        <h3 class="text-left">Books I've Read:</h3> <!-- title for the book list -->
+        
+        <div class="row" id="book-list"></div> <!-- Book cards -->
+
+        <!-- Form for adding a new book -->
+        <form id="add-book-form" class="mt-5"> 
+            <h3 style="font-style: oblique; color: red;">Add a New Book</h3> 
+            <div class="form-group">
+                <label for="title">Title:</label> 
+                <input type="text" id="title" class="form-control" required> 
+            </div>
+            <div class="form-group">
+                <label for="author">Author:</label> 
+                <input type="text" id="author" class="form-control" required> 
+            </div>
+            <button type="submit" class="btn btn-info">Add Book</button> 
+        </form>
+    </div>
+
+    <!-- Linking jQuery -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Linking Bootstrap -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript file -->
+    <script src="index.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,34 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Dark Places",
+      "author": "Gillian Flynn"
+    },
+    {
+      "id": 2,
+      "title": "In a Dark, Dark Wood",
+      "author": "Ruth Ware"
+    },
+    {
+      "id": 3,
+      "title": "Born a Crime",
+      "author": "Trevor Noah"
+    },
+    {
+      "id": 4,
+      "title": "Sloth",
+      "author": "Ella James"
+    },
+    {
+      "id": 5,
+      "title": "Apathy and Other Small Victories",
+      "author": "Paul Neilan"
+    },
+    {
+      "id": 6,
+      "title": "Green Eggs and Ham",
+      "author": "Dr. Suess"
+    }
+  ]
+}

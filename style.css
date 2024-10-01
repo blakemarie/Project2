@@ -1,0 +1,9 @@
+.title {
+    text-align: center;         /* Centers the text */
+    border: 2px solid black;   /* Adds a solid border */
+    padding: 20px;             /* Adds some padding inside the container */
+    font-size: 1.5em;          /* Makes the font bigger */
+    margin: 20px auto;         /* Centers the container itself */
+    width: fit-content;        /* Adjusts the width of the container to fit content */
+}
+
